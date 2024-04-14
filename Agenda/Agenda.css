@@ -1,0 +1,134 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(164, 119, 119);
+    padding-bottom: 5.5%;
+  }
+
+  /*header*/
+  .header {
+    margin: 0%;
+    background: #202020;
+    padding: 0;
+  }
+  
+  .header img{
+    width: 100%;
+    height: auto;
+
+  }
+
+  /*Navbar y estilo*/
+  .navbar {
+    font-family: fantasy;
+    margin-top: 0px;
+    position: sticky;
+    top: 0;
+    display: relative;
+    text-align: center;
+    font-size: 40px; 
+    background-color: #202020;
+    z-index: 1;
+  }
+  
+  .navbar ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+  }
+
+  .navbar li{
+    display: inline;
+    vertical-align: middle;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .navbar a{
+    color: white;
+    text-decoration: none;
+  }
+  .navbar a:hover{
+    color: #666d6d;
+  }
+  /*Pagina actual*/
+  #actual{
+    color: red;
+  }
+
+  .botones{
+    display: grid;
+  }
+  .boton{
+    background-color: #6c5b5a;
+    display: none;
+    padding: auto;
+    font-weight: bolder;
+    font-size: medium;
+
+  }
+  .botonFuera{
+    background-color: #5f4a4a;
+    display: inline-block;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .botonFuera h1{
+    text-align: center;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    transition: display 0.5s;
+  }
+  .botonFuera:hover .boton{
+    display: grid;
+ 
+  }
+  span{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .cuerpo{
+  display: grid;
+  grid-template-columns: 25% 60%;
+  }
+  .panel{
+    margin-top: 10px;
+    height: 100%;
+    margin-right: 10%;
+    margin-left: 5%;
+    background-image: url(panelFoto.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /* Footer */
+  .footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    text-align: center;
+    background: #202020;
+    color: #666d6d;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer h2{
+    margin: 0%;
+  }
+
+  
