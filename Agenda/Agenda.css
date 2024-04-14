@@ -58,6 +58,7 @@ body {
     color: red;
   }
 
+<<<<<<< HEAD
   .botones{
     display: grid;
   }
@@ -107,6 +108,8 @@ body {
     margin-right: 10%;
   }
 
+=======
+>>>>>>> db00ba9bfd9fd17e694ef656fe8cf10a728de188
   /* Footer */
   .footer {
     padding-top: 1%;
@@ -123,5 +126,8 @@ body {
   .footer h2{
     margin: 0%;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> db00ba9bfd9fd17e694ef656fe8cf10a728de188
   
